@@ -227,6 +227,10 @@ header {
         margin-bottom: 0;
     }
 }
+video {
+  width: 100%;
+  height: auto;
+}
 
 .portfolio-box {
     position: relative;
@@ -268,6 +272,7 @@ header {
     &:hover {
         .portfolio-box-caption {
             opacity: 1;
+            cursor: pointer;
         }
     }
     @media (min-width: 768px) {

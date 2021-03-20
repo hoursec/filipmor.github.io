@@ -149,9 +149,12 @@ Hoursec Enhancing Computing technology was born after a research invention that 
     <div class="container-fluid">
         <div class="row no-gutter">
             <div class="col-lg-4 col-sm-6">
-                <a href="#" onclick="loadVideo1()" class="portfolio-box">
-                    <img src="img/portfolio/1.jpg" class="img-responsive"/>
-                    <div class="portfolio-box-caption">
+                <div class="portfolio-box">
+                  <img src="img/portfolio/1.jpg" id="image1" class="img-responsive"/>
+                  <video controls hidden id="video1">
+                    <source type='video/mp4'>
+                  </video>
+                    <div class="portfolio-box-caption" onclick="loadVideo1()">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Astrophysics
@@ -161,10 +164,10 @@ Hoursec Enhancing Computing technology was born after a research invention that 
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
+                <div class="portfolio-box">
                     <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
@@ -176,10 +179,10 @@ Hoursec Enhancing Computing technology was born after a research invention that 
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
+                <div class="portfolio-box">
                     <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
@@ -191,7 +194,7 @@ Hoursec Enhancing Computing technology was born after a research invention that 
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -210,17 +213,33 @@ Hoursec Enhancing Computing technology was born after a research invention that 
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
                     <img src="img/male.jpg" class="circular--square" width="100" height="100">
-                    <h3>Placeholder</h3>
+                    <h3>Filip Morawski</h3>
                     <p class="text-white">About me...</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <img src="img/female.png" class="circular--square" width="100" height="100">
-                    <h3>Placeholder</h3>
+                    <img src="img/male.jpg" class="circular--square" width="100" height="100">
+                    <h3>Maurizio Pierini</h3>
                     <p class="text-white">About me...</p>
                 </div>
             </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-center">
+              <div class="service-box">
+                  <img src="img/male.jpg" class="circular--square" width="100" height="100">
+                  <h3>Oskar Menzer</h3>
+                  <p class="text-white">About me...</p>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+              <div class="service-box">
+                  <img src="img/female.png" class="circular--square" width="100" height="100">
+                  <h3>Nicola Mosco</h3>
+                  <p class="text-white">About me...</p>
+              </div>
+          </div>
         </div>
     </div>
 </section>
