@@ -20,9 +20,7 @@ function loadVideo1() {
     var videoEl = document.getElementById('video1');
     videoEl.removeAttribute("hidden");
     var sourceEl = videoEl.getElementsByTagName('source')[0];
-    sourceEl.src = 'https://drive.google.com/uc?export=download&id=1Kyg0XBDSdVuFOFmrFC0qPEJfLCisLgmW';
-    //sourceEl.src = "https://youtu.be/DzwUcX5AfhM";
-    videoEl.load();
+    sourceEl.src = '../videos/anomaly_detection.webm';
     videoEl.play();
   }
 }
