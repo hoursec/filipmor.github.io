@@ -159,11 +159,20 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-cover;
-    background-position: center;
+    //@include background-cover;
+    //background-position: center;
     //background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    .header-video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+    }
     .header-content {
         position: relative;
         text-align: center;
