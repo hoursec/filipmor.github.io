@@ -21,6 +21,7 @@ function loadVideo1() {
     videoEl.removeAttribute("hidden");
     var sourceEl = videoEl.getElementsByTagName('source')[0];
     sourceEl.src = '../videos/anomaly_detection.webm';
+    sourceEl.setAttribute("playsinline", "playsinline");
     videoEl.play();
   }
 }
