@@ -275,7 +275,7 @@ video {
             cursor: pointer;
         }
     }
-    @media (min-width: 768px) {
+    @media (max-width: 650px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
